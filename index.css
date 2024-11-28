@@ -137,3 +137,31 @@ main h1{
     width: 1200px;
 }
 
+footer{
+    padding: 20px;
+}
+
+footer h1{
+    padding: 10px 12px;
+    font-weight: bold;
+    margin: 2px 850px;
+}
+
+.blok{
+    display: flex;
+    justify-content: center;
+
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.contact img{
+    width: 90px;
+    margin: 5px;
+}

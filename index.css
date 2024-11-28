@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color:rgb(255, 255, 255) ;
+    background-color:rgb(252, 255, 252) ;
 }
 
 .navbar{
@@ -115,5 +115,25 @@ main h1{
 
 .count:hover{
     background-color: white;
+}
+
+.procnt{
+    display: flex;
+
+}
+
+.desc1 h2{
+    color: gold;
+    margin: 8px;
+}
+
+.desc1 h1{
+    color: gold;
+}
+
+.hzh{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
 }
 

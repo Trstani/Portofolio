@@ -16,17 +16,17 @@ body{
 
 .profile{
     display: flex;
-    padding: 20px;
+    padding: 1.25rem;
     justify-content: center;
     text-align: center;
 }
 
 .profile img{
-    width: 50px;
-    height: 50px;
-    border-radius: 30px;
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 1.875rem;
     background-size: cover;
-    margin-right: 12px;
+    margin-right: 0.75rem;
 
 }
 
@@ -36,11 +36,11 @@ body{
 }
 
 main{
-    margin-top: 50px;
-    padding: 20px;
+    margin-top: 3.125rem;
+    padding: 1.25rem;
 }
 main h1{
-     padding: 10px 12px;
+     padding: 0.625rem 0.75rem;
      font-weight: bold;
 }
 
@@ -52,26 +52,26 @@ main h1{
 .container{
     display: flex;
     background-color: black;
-    padding: 20px;
-    border-radius: 20px;
-    margin: 8px 12px;
+    padding: 1.25rem;
+    border-radius: 1.25rem;
+    margin: 0.5rem 0.75rem;
 }
 
 .desc1 h3{
     color: white;
-    margin: 8px;
+    margin: 0.5rem;
 }
 
 .desc2 h3{
     color: white;
-    margin: 8px;
+    margin: 0.5rem;
 }
 
 .container img{
-    width: 350px;
-    border-radius: 20px;
-    margin: 8px;
-    height: 200px;
+    width: 21.875rem;
+    border-radius: 1.25rem;
+    margin: 0.5rem;
+    height: 12.5rem;
 }
 
 .container2{
@@ -92,17 +92,17 @@ main h1{
 }
 
 .project{
-    padding: 12px;
+    padding: 0.75rem;
     background-color: rgb(0, 0, 0);
-    border-radius: 20px;
-    margin: 8px 12px;
+    border-radius: 1.25rem;
+    margin: 0.5rem 0.75rem;
 }
 
 .count{
-    padding: 12px;
+    padding: 0.75rem;
     background-color: gold;
-    margin: 20px;
-    border-radius: 10px;
+    margin: 1.25rem;
+    border-radius: 0.625rem;
     transition: transform 0.5s;
 
 
@@ -116,7 +116,7 @@ main h1{
 
 .count:hover{
     background-color: white;
-    transform: translateY(-10px);
+    transform: translateY(-0.625rem);
 }
 
 .procnt{
@@ -126,7 +126,7 @@ main h1{
 
 .desc1 h2{
     color: gold;
-    margin: 8px;
+    margin: 0.5rem;
 }
 
 .desc1 h1{
@@ -136,17 +136,17 @@ main h1{
 .hzh{
     display: flex;
     flex-direction: column;
-    width: 1200px;
+    width:75rem;
 }
 
 footer{
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 footer h1{
-    padding: 10px 12px;
+    padding: 0.625rem 0.75rem;
     font-weight: bold;
-    margin: 2px 850px;
+    margin: 0.125rem 53.125rem;
 }
 
 .blok{
@@ -160,7 +160,7 @@ footer h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 1.25rem;
     transition: transform 0.5s;
 }
 
@@ -168,6 +168,6 @@ footer h1{
     transform: translateY(-5px);
 }
 .contact img{
-    width: 90px;
-    margin: 5px;
+    width: 5.625rem;
+    margin: 0.3125rem;
 }

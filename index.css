@@ -16,13 +16,15 @@ h1,h2,h3{
 .navbar{
     display: flex;
     background-color: black;
-
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .profile{
     display: flex;
-    padding: 1.25rem;
-    justify-content: center;
+    padding: 15px;
+    align-items: center;
     text-align: center;
 }
 
@@ -41,9 +43,10 @@ h1,h2,h3{
 }
 
 main{
-    margin-top: 3.125rem;
+    margin-top: 80px;
     padding: 1.25rem;
 }
+
 main h1{
      padding: 0.625rem 0.75rem;
      font-weight: bold;
